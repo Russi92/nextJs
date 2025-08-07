@@ -7,7 +7,7 @@
 // }
 
 export default async function ProductDetails ({
-    params ,
+    params,
 } : {
     params : Promise<{productId : string}>;
 }) {
